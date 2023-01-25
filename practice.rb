@@ -27,3 +27,7 @@ blockchain = [
 # Anthony's KelloggCoin balance is 2650
 
 # 👇👇👇 Your code HERE 👇👇👇
+
+for item in blockchain
+  puts "#{blockchain[item]["from_user"]}"
+end
